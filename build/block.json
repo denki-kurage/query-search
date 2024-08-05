@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "query-search/result-view",
+  "version": "0.1.0",
+  "title": "検索結果一覧を表示します。",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "uid": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string",
+      "default": ""
+    },
+    "kind": {
+      "type": "string",
+      "default": ""
+    },
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "minimum": {
+      "type": "boolean",
+      "default": false
+    },
+    "themeColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showBlocks": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "textdomain": "query-search",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

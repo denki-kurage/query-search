@@ -1,0 +1,126 @@
+
+
+
+.selector
+{
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.selector-item
+{
+	border: 1px solid transparent;
+}
+
+.selector-item-hover
+{
+	border: 1px solid green;
+}
+
+
+.selector-item-selected
+{
+	border: 1px solid red !important;
+	padding: .5rem;
+}
+
+.key-value-editor
+{
+	width: 100%;
+
+	// TextControlがmargin-bottomに余白を含ませているため、テーブルの中央(middle)に配置されない問題(横のボタンとインラインがことなる)を修正
+	TD>DIV>DIV
+	{
+		margin: 0px;
+	}
+
+	.key-value-editor-add
+	{
+		width: 100%;
+	}
+
+	.components-button-group
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+
+		.components-button
+		{
+			width: 100%;
+			justify-content: center;
+		}
+	}
+
+}
+
+
+
+
+
+.modal-key-value-editor-container
+{
+	
+	.modal-open-button
+	{
+		width: 100%;
+		margin-top: .2rem;
+		margin-bottom: .2rem;
+	}
+
+	.modal-key-value-editor
+	{
+		padding: .3rem;
+		width: 100%;
+
+		TH
+		{
+			text-align: left;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FIELDSET.group-box
+{
+	box-sizing: border-box;
+	border: 1px solid silver;
+	border-radius: .5rem;
+	padding: .5rem;
+	padding-left: 1.2rem;
+
+	LEGEND.group-box-label
+	{
+		padding: .3rem;
+	}
+}
+
+
+FIELDSET.component-area
+{
+	border-top: 3px solid rgb(9, 130, 217);
+	margin: .8rem;
+	padding: .8rem;
+
+	LEGEND.component-area-label
+	{
+		padding: .3rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/query-search",
+  "version": "0.1.0",
+  "title": "Query Search",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "input form base",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "uid": {
+      "type": "string",
+      "default": ""
+    },
+    "pid": {
+      "type": "string",
+      "default": ""
+    },
+    "field": {
+      "type": "string",
+      "default": ""
+    },
+    "query": {
+      "type": [
+        "string",
+        "object"
+      ],
+      "default": null
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
